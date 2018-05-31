@@ -133,9 +133,9 @@ ul.tabs li a .tab-text{
 
 @media screen and (max-width: 1600px){
 
-body {background-color:#0CB7F2;}
-body .secciones{background-color:#0CB7F2;
-margin:0px 0;}
+body {background-color:#ff6b4c;}
+body .secciones{background-color:#ff6b4c;
+margin:0}
 
 div.cambio-idioma{ margin:-100px 20px 20px 900px; }
   
