@@ -1,0 +1,595 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body{
+padding:0;
+margin:0}
+body header a{
+text-decoration:none;
+color:black;font-size:18px;}
+
+/* Ver si poner texto o no
+h1 {
+text-align:center;
+margin:0px 150px -60px 20px; 
+font-size:50px;}*/
+
+
+
+
+
+
+body a{
+padding-top:20px;
+font-size:15px;
+text-decoration:none;
+color:yellow;
+} 
+
+
+ 
+
+
+
+
+
+.wrap{
+  width: 800px;
+  max-width: 90%;
+  margin: 30px auto;
+}
+
+
+
+ul.tabs{
+  width: 100%;
+  background: #363636;
+  list-style: none;
+  display: flex;
+}
+
+ul.tabs li{
+  width: 18%;
+}
+
+ul.tabs li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
+
+  display: block;
+  padding: 20px 0px;
+}
+
+.active{
+  background: #0984CC;
+}
+
+ul.tabs li a .tab-text{
+  margin-left: 8px;
+}
+
+.secciones{
+  width: 100%;
+  background: #fff;
+}
+
+.secciones article{
+  padding: 30px;
+}
+
+.secciones article p{
+  text-align: justify;
+}
+
+
+
+
+/* PRODUCTOS ============*/
+
+.list-ofert{
+  width: 82%;
+  display: flex;
+  flex-wrap: wrap; margin-left:70px;
+
+}
+
+.list-ofert .item-ofert{
+  width: 22%;
+  margin-left: 3%;
+  margin-bottom: 25px;
+  box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.22);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: flex-start;
+
+  
+}
+
+
+.list-ofert .item-ofert img{
+  width: 100%;
+  overflow:hidden;
+}
+
+.list-ofert .item-ofert a{
+  display: block;
+  width: 100%;
+  padding: 8px 0;
+  background: #2D3E50;
+
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* RESPONSIVE */
+
+
+@media screen and (max-width: 1600px){
+
+body {background-color:#ff6b4c;}
+body .secciones{background-color:#ff6b4c;
+margin:0}
+
+div.cambio-idioma{ margin:-100px 20px 20px 1160px; }
+  
+  div.cambio-idioma img{ 
+  width:60px;
+  margin:10px 0px 100px 0px;
+  padding:0px  0;
+  } 
+  div.cambio-idioma a{ 
+  width:60px;
+  margin:20px 0px 100px 20px;
+     }
+
+ul.tabs{
+  width: 80%;
+  background: #363636;
+  list-style: none;
+  display: flex; margin-left:60px;
+  margin-top: -70px
+
+}
+
+ul.tabs li{
+  width: 50%;
+
+}
+
+ul.tabs li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
+
+  display: block;
+  padding: 15px 0px;
+}
+
+.active{
+  background: #0984CC;
+}
+
+ul.tabs li a .tab-text{
+  margin-left: 8px;
+}
+
+.secciones{
+  width: 100%;
+  background: #fff;
+  margin:20px -20px 0px 120px;
+
+}
+
+.secciones article{
+  padding: 30px; 
+}
+ 
+
+section.lista-oferta{
+   width: 150%;
+  display: flex;
+  flex-wrap: wrap; 
+  margin-left:-200px;
+}
+
+
+.list-ofert{
+  width: 150%;
+  display: flex;
+  flex-wrap: wrap; 
+  margin-left:-200px;
+}
+
+.list-oferta{
+  width: 150%;
+  display: flex;
+  flex-wrap: wrap; margin-left:-200px;
+}
+
+
+
+section.lista-oferta .itema-oferta{
+  width: 29%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 25px;
+  box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.22);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+  
+}
+
+
+
+.list-ofert .item-ofert{
+  width: 22%;
+  margin-left: 1%;
+  margin-right: 10%;
+  margin-bottom: 25px;
+  box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.22);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+  
+}
+
+.list-oferta .item-oferta{
+  width: 24%;
+  margin-left: 40%;
+  margin-bottom: 25px;
+  box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.22);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+  
+}
+
+.lista-oferta .itema-oferta p{
+  display: block;
+  width: 100%;
+  padding: 8px 0;
+ background-color:#363636;
+
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.list-ofert .item-ofert p{
+  display: block;
+  width: 100%;
+  padding: 8px 0;
+ background-color:#363636;
+
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.list-oferta .item-oferta b{
+ 
+width: 300px;
+padding: 10px 20px 5px 10px;
+background-color:#363636;
+text-align: justify;
+color: #fff;
+text-decoration: none;
+}
+
+
+footer{
+background-color:#363636;  
+  /*crear un aviso legal*/
+
+}
+
+
+  div.social{ margin-left: 500px; }
+  
+  div.social img{ 
+  width:40px;
+  margin:20px 0px 0px 0px;
+  padding:0px 0px 0px 0px;
+  } 
+  div.social a{ 
+  width:40px;
+  margin:40px 0px 0px 20px;
+     }
+
+@media screen and (max-width: 1100px)/* hasta 5.1 pulgadas bien meter el footer */{
+ 
+div.cambio-idioma{ margin:-100px 20px 20px 170px; }
+  
+  div.cambio-idioma img{ 
+  width:60px;
+  margin:10px 0px 100px 0px;
+  padding:0px  0;
+  } 
+  div.cambio-idioma a{ 
+  width:60px;
+  margin:20px 0px 100px 20px;
+     }
+
+
+ul.tabs{
+  width: 102%;
+  background: #363636;
+  list-style: none;
+  display: flex; 
+  margin-left:-2px;
+  margin-bottom: 40px;}
+
+ul.tabs li{
+  width: 10%;}
+
+
+ul.tabs li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
+  display: block;
+  padding: 15px 0px;}
+
+
+section.lista-oferta{
+  width: 100%;
+display: flex;
+flex-wrap: wrap;
+margin-left: 20px;
+}
+
+  .list-ofert{
+    width: 120%;
+margin-left: -20px;}
+
+  
+  .list-oferta{
+    width: 100%;
+margin-left: -30px;
+margin-bottom: 30px;}
+
+  
+section.lista-oferta .itema-oferta{
+ width: 100%;
+margin-left: -2%;
+padding: 0px 0;
+margin-bottom: 50px;
+box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.22);
+display: flex;
+flex-direction: column;
+align-items: center
+    
+}
+
+.list-oferta .item-oferta b{
+ 
+width: 300px;
+padding: 20px 10px 20px 10px;
+margin-left:170px;
+background-color:#363636;
+text-align: justify;
+color: #fff;
+text-decoration: none;
+}
+
+  .lista-oferta .itema-ofert{
+    margin-left: 4.5%;}
+
+
+  .list-ofert .item-ofert:nth-child(3n+1){
+    margin-left: 0px;}
+
+
+  .list-ofert .item-ofert{
+    margin-left: 4.5%;}
+
+
+  .list-ofert .item-ofert:nth-child(3n+1){
+    margin-left: 0px;}
+
+
+  .list-oferta .item-oferta{
+    margin-left: 4.5%; }
+
+  .list-oferta .item-oferta:nth-child(3n+1){
+    margin-left: 50px;
+margin-bottom: 90px;}
+
+
+footer{
+background-color:#363636;
+margin:0px 0;  
+  /*crear un aviso legal*/
+
+}
+
+
+  div.social{ padding:0px 0; }
+  
+  div.social img{ 
+  width:40px;
+  margin:20px 0px 0px 0px;
+  padding:0px 0px 0px 0px;
+  } 
+  div.social a{ 
+  width:40px;
+  margin:40px 0px 0px 20px;
+     }
+ }
+}
+
+
+
+@media screen and (max-width: 700px){
+
+
+
+
+  ul.tabs li{
+    width: none;
+    flex-basis: 0;
+    flex-grow: 1;}
+
+
+footer{
+background-color:#363636;  
+padding:9.9%;
+  /*crear un aviso legal*/
+
+}
+
+
+  div.social{ margin-left: 4px; }
+  
+  div.social img{ 
+  width:40px;
+  margin:20px 0px 0px 0px;
+  padding:0px 0px 0px 0px;
+  } 
+  div.social a{ 
+  width:40px;
+  margin:40px 0px 0px 20px;
+     }
+}
+
+
+
+
+@media screen and (max-width: 600px){
+
+  .list-ofert .item-ofert{
+    width: 37.5%;}
+
+  .list-ofert .item-ofert:nth-child(3n+1){
+    margin-left: 4.5%;}
+
+  .list-ofert .item-ofert:nth-child(2n+1){
+    margin-left: 90px;}
+
+
+
+footer{
+background-color:#363636;  
+  /*crear un aviso legal*/
+
+}
+
+
+  div.social{ margin-left: 4px; }
+  
+  div.social img{ 
+  width:40px;
+  margin:20px 0px 0px 0px;
+  padding:0px 0px 0px 0px;
+  } 
+  div.social a{ 
+  width:40px;
+  margin:40px 0px 0px 20px;
+     }
+}
+
+
+
+@media screen and (max-width: 450px){
+  ul.tabs li a{
+    padding: 15px 0px;
+  }
+
+  
+
+  .secciones article{
+    padding: 20px;
+  }
+
+
+footer{
+background-color:#363636;  
+  /*crear un aviso legal*/
+
+}
+
+
+  div.social{ margin-left: 4px; }
+  
+  div.social img{ 
+  width:40px;
+  margin:20px 0px 0px 0px;
+  padding:0px 0px 0px 0px;
+  } 
+  div.social a{ 
+  width:40px;
+  margin:40px 0px 0px 20px;
+     }
+
+@media screen and (max-width: 350px){
+  
+  .list-ofert .item-ofert{
+    width: 100%;
+    margin-left: 0px;}
+
+
+footer{
+background-color:#363636;  
+  /*crear un aviso legal*/
+
+}
+
+
+  div.social{ margin-left: 4px; }
+  
+  div.social img{ 
+  width:40px;
+  margin:20px 0px 0px 0px;
+  padding:0px 0px 0px 0px;
+  } 
+  div.social a{ 
+  width:40px;
+  margin:40px 0px 0px 20px;
+     }
+}}
+
+
+
+
+ 
+
+
+
+
+
+
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
