@@ -1,3 +1,12 @@
+
+
+
+ 
+
+
+
+
+
 *{
     padding: 0;
     margin: 0;
@@ -12,14 +21,13 @@ body header a{
 text-decoration:none;
 color:black;font-size:18px;}
 
-body {background-color:#ff6b4c;}
-body .secciones{background-color:#ff6b4c;
-margin:0}
-/* Revisar si poner texto en el slider
+/* Ver si poner texto o no
 h1 {
 text-align:center;
 margin:0px 150px -60px 20px; 
-font-size:50px;} */
+font-size:50px;}*/
+
+
 
 
 
@@ -136,6 +144,9 @@ ul.tabs li a .tab-text{
 
 @media screen and (max-width: 1600px){
 
+body {background-color:#ff6b4c;}
+body .secciones{background-color:#ff6b4c;
+margin:0}
 
 div.cambio-idioma{ margin:-100px 20px 20px 900px; }
   
@@ -174,7 +185,7 @@ ul.tabs li a{
 }
 
 .active{
-  background: #FC3030;
+  background: #0984CC;
 }
 
 ul.tabs li a .tab-text{
@@ -564,16 +575,6 @@ background-color:#363636;
   margin:40px 0px 0px 20px;
      }
 }}
-
-
-
- 
-
-
-
-
-
-
 
   
     
