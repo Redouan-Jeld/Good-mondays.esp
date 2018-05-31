@@ -12,6 +12,9 @@ body header a{
 text-decoration:none;
 color:black;font-size:18px;}
 
+body {background-color:#ff6b4c;}
+body .secciones{background-color:#ff6b4c;
+margin:0}
 /* Revisar si poner texto en el slider
 h1 {
 text-align:center;
@@ -133,9 +136,6 @@ ul.tabs li a .tab-text{
 
 @media screen and (max-width: 1600px){
 
-body {background-color:#ff6b4c;}
-body .secciones{background-color:#ff6b4c;
-margin:0}
 
 div.cambio-idioma{ margin:-100px 20px 20px 900px; }
   
